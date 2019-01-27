@@ -47,13 +47,14 @@ body {
   text-transform: uppercase;
 }
 
-/*.preloader__wheel {
+.preloader__wheel {
   width: 60px;
   height: 60px;
   background: #F4511E;
   z-index: 2;
 }
-.preloader__wheel-wrapper {
+
+/*.preloader__wheel-wrapper {
   position: absolute;
   z-index: 1;
 }

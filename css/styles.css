@@ -87,10 +87,11 @@ body {
   top: 10px;
 }
 
-/*.preloader__wheel-wrapper:nth-child(2n+1) {
+.preloader__wheel-wrapper:nth-child(2n+1) {
   left: 10px;
 }
-.preloader__wheel-wrapper:nth-child(2n+1):before {
+
+/*.preloader__wheel-wrapper:nth-child(2n+1):before {
   content: "";
   top: 9px;
   left: -74px;

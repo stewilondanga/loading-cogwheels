@@ -54,11 +54,12 @@ body {
   z-index: 2;
 }
 
-/*.preloader__wheel-wrapper {
+.preloader__wheel-wrapper {
   position: absolute;
   z-index: 1;
 }
-.preloader__wheel-wrapper:nth-child(2n) {
+
+/*.preloader__wheel-wrapper:nth-child(2n) {
   right: 10px;
 }
 .preloader__wheel-wrapper:nth-child(2n):before {

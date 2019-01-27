@@ -221,10 +221,11 @@ body {
   top: 490px;
 }
 
-/*.preloader .preloader__wheel-wrapper:nth-child(7) .preloader__content {
+.preloader .preloader__wheel-wrapper:nth-child(7) .preloader__content {
   animation: wheel_rotate 1s linear infinite;
 }
-.preloader .preloader__wheel-wrapper:nth-child(7) .preloader__wheel {
+
+/*.preloader .preloader__wheel-wrapper:nth-child(7) .preloader__wheel {
   animation: _wheel_rotate 1s linear infinite;
 }
 @keyframes wheel_rotate {

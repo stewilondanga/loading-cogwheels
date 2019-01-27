@@ -26,14 +26,13 @@ body {
   height: 1.5em;
 }
 
-/*
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
 
-.preloader {
+/*.preloader {
   position: absolute;
   left: 50%;
   top: 10%;

@@ -59,10 +59,11 @@ body {
   z-index: 1;
 }
 
-/*.preloader__wheel-wrapper:nth-child(2n) {
+.preloader__wheel-wrapper:nth-child(2n) {
   right: 10px;
 }
-.preloader__wheel-wrapper:nth-child(2n):before {
+
+/*.preloader__wheel-wrapper:nth-child(2n):before {
   content: "";
   top: -15px;
   left: 2px;

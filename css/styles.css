@@ -75,7 +75,7 @@ body {
   z-index: 5;
 }
 
-/*.preloader__wheel-wrapper:nth-child(2n):after {
+.preloader__wheel-wrapper:nth-child(2n):after {
   content: "";
   position: absolute;
   width: 110px;
@@ -86,7 +86,8 @@ body {
   left: 23px;
   top: 10px;
 }
-.preloader__wheel-wrapper:nth-child(2n+1) {
+
+/*.preloader__wheel-wrapper:nth-child(2n+1) {
   left: 10px;
 }
 .preloader__wheel-wrapper:nth-child(2n+1):before {

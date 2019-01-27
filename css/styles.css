@@ -229,18 +229,21 @@ body {
   animation: _wheel_rotate 1s linear infinite;
 }
 
-/*@keyframes wheel_rotate {
+@keyframes wheel_rotate {
   0% {
     transform: rotate(0);
   }
+
   80% {
     transform: rotate(335deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
-@keyframes _wheel_rotate {
+
+/*@keyframes _wheel_rotate {
   0% {
     transform: rotate(360deg);
   }

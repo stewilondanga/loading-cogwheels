@@ -91,7 +91,7 @@ body {
   left: 10px;
 }
 
-/*.preloader__wheel-wrapper:nth-child(2n+1):before {
+.preloader__wheel-wrapper:nth-child(2n+1):before {
   content: "";
   top: 9px;
   left: -74px;
@@ -102,7 +102,8 @@ body {
   transform: rotate(33deg);
   z-index: 5;
 }
-.preloader__wheel-wrapper:nth-child(2n+1):after {
+
+/*.preloader__wheel-wrapper:nth-child(2n+1):after {
   content: "";
   position: absolute;
   width: 110px;

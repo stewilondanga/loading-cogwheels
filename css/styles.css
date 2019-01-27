@@ -115,10 +115,11 @@ body {
   left: -54px;
 }
 
-/*.preloader__wheel-wrapper:nth-child(1):after {
+.preloader__wheel-wrapper:nth-child(1):after {
   display: none;
 }
-.preloader__wheel-wrapper:nth-child(1):before {
+
+/*.preloader__wheel-wrapper:nth-child(1):before {
   display: none;
 }
 .preloader__inner-wheel, .preloader__second-inner-whell {

@@ -145,10 +145,11 @@ body {
   z-index: 2;
 }
 
-/*.preloader .preloader__wheel-wrapper:nth-child(1) {
+.preloader .preloader__wheel-wrapper:nth-child(1) {
   top: 70px;
 }
-.preloader .preloader__wheel-wrapper:nth-child(1) .preloader__content {
+
+/*.preloader .preloader__wheel-wrapper:nth-child(1) .preloader__content {
   animation: wheel_rotate 7s linear infinite;
 }
 .preloader .preloader__wheel-wrapper:nth-child(1) .preloader__wheel {

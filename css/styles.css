@@ -189,10 +189,11 @@ body {
   animation: wheel_rotate 1.75s linear infinite;
 }
 
-/*.preloader .preloader__wheel-wrapper:nth-child(4) .preloader__wheel {
+.preloader .preloader__wheel-wrapper:nth-child(4) .preloader__wheel {
   animation: _wheel_rotate 1.75s linear infinite;
 }
-.preloader .preloader__wheel-wrapper:nth-child(5) {
+
+/*.preloader .preloader__wheel-wrapper:nth-child(5) {
   top: 350px;
 }
 .preloader .preloader__wheel-wrapper:nth-child(5) .preloader__content {
